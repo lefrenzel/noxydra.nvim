@@ -22,7 +22,7 @@ Neovim's configurations are located under the following paths. (this configurati
 | :- | :--- |
 | Linux, MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
 
-[Fork](https://github.com/lefrenzel/noxydra.nvim.git) this repo so that you habe your own copy that you can modify,
+[Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo so that you habe your own copy that you can modify,
 then install by cloning the fork to your machine using the command below.
 
 > [!NOTE]
