@@ -49,16 +49,6 @@ Start Neovim
 nvim
 ```
 
-</details>
-
-### Post Installation
-
-Start Neovim
-
-```sh
-nvim
-```
-
 ### Functionality
 
 This repo currently only has an lsp for lua.
