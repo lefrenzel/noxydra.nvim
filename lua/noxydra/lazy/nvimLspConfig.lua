@@ -209,6 +209,10 @@ return {
 					},
 				},
 			},
+
+			clangd = {
+				settings = {},
+			},
 		}
 
 		-- Ensure the servers and tools above are installed
