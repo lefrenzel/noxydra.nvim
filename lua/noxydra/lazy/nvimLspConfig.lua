@@ -87,6 +87,13 @@ return {
 				--
 				-- When you move your cursor, the highlights will be cleared (the second autocommand).
 				local client = vim.lsp.get_client_by_id(event.data.client_id)
+				-- Stop LSPs on .proto files
+				local ft = vim.api.nvim_buf_get_option(event.buf, "filetype")
+				if ft == "proto" and client then
+					client.stop(client)
+					return
+				end
+
 				if
 					client
 					and client_supports_method(
@@ -211,6 +218,7 @@ return {
 			},
 
 			clangd = {
+				filetypes = { "c", "cpp", "objc", "objcpp" },
 				settings = {},
 			},
 		}
