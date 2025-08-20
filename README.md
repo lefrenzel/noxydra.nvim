@@ -29,7 +29,7 @@ then install by cloning the fork to your machine using the command below.
 > Your fork's URL will be something like that:
 > `https://github.com/<your_github_username>/noxydra.nvim.git`
 
-You likely want to removee `lazy-lock.json` from your fork's.
+You likely want to remove `lazy-lock.json` from your fork's.
 
 ### Clone noxydra.nvim
 
